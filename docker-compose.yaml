@@ -1,0 +1,10 @@
+version: '3'
+services:
+  redis_broker:
+    image: redis
+    ports:
+     - "6379:6379"
+  redis_backend:
+    image: "redis:alpine"
+    ports: 
+     - "16379:6379"
