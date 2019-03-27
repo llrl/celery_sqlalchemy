@@ -120,3 +120,4 @@ dmypy.json
 ### Python Patch ###
 .venv/
 .vscode/
+.idea/
